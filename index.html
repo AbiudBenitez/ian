@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Proyecto</title>
+</head>
+<body>
+  <header class="header">
+    <h1>¡Hola Mundo!</h1>
+  </header>
+  <section class="body">
+    <p>Bienvenido a mi página</p>
+  </section>
+  <section class="img">
+    <img src="img/amogus.gif" alt="">
+    <p>Introducir los datos</p>
+    <img src="img/amogus.gif" alt="">
+  </section>
+  <form action="php/inventario.php" method="post" class="form">
+    <table>
+      <tr>
+        <td><span>Id: </span></td>
+        <td><input type="text" name="id" id="id" size="30"></td>
+      </tr>
+      <tr>
+        <td><span>Descripción: </span></td>
+        <td><input type="text" name="descripcion" id="descripcion" size="30"></td>
+      </tr>
+      <tr>
+        <td><span>Precio: </span></td>
+        <td><input type="text" name="precio" id="Precio" size="30"></td>
+      </tr>
+      <tr>
+        <td><span>Stock: </span></td>
+        <td><input type="text" name="stock" id="stock" size="30"></td>
+      </tr>
+    </table>
+    <section class="btn-cont">
+      <input type="submit" value="Enviar" class="btn">
+      <input type="submit" value="Limpiar" class="btn">
+    </section>
+  </form>
+</body>
+</html>
